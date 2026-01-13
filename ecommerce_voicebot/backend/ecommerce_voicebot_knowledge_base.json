@@ -1,0 +1,2559 @@
+{
+  "metadata": {
+    "dataset_name": "E-Commerce Voicebot Knowledge Base",
+    "version": "1.0",
+    "created_date": "2026-01-11",
+    "description": "Comprehensive synthetic dataset for e-commerce AI voicebot including products, orders, policies, FAQs, and voice query scenarios",
+    "company_name": "ShopEase",
+    "contact_email": "support@shopease.com",
+    "contact_phone": "1-800-SHOP-EASE"
+  },
+  "products": [
+    {
+      "product_id": "PROD001",
+      "name": "Wireless Bluetooth Headphones Pro",
+      "category": "Electronics",
+      "subcategory": "Audio",
+      "brand": "SoundWave",
+      "price": 129.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 245,
+      "description": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and superior sound quality. Features include touch controls, voice assistant integration, and comfortable over-ear design.",
+      "specifications": {
+        "battery_life": "30 hours",
+        "connectivity": "Bluetooth 5.0",
+        "weight": "250g",
+        "color_options": ["Black", "Silver", "Rose Gold"],
+        "warranty": "2 years"
+      },
+      "rating": 4.5,
+      "review_count": 1247,
+      "keywords": ["wireless", "bluetooth", "headphones", "noise cancellation", "audio", "music"]
+    },
+    {
+      "product_id": "PROD002",
+      "name": "Smart Fitness Watch Ultra",
+      "category": "Electronics",
+      "subcategory": "Wearables",
+      "brand": "FitTech",
+      "price": 249.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 156,
+      "description": "Advanced fitness tracking watch with heart rate monitoring, GPS, sleep tracking, and 50+ workout modes. Water-resistant up to 50 meters with 7-day battery life.",
+      "specifications": {
+        "battery_life": "7 days",
+        "water_resistance": "50m",
+        "display": "1.4 inch AMOLED",
+        "color_options": ["Black", "Navy Blue", "Forest Green"],
+        "warranty": "1 year"
+      },
+      "rating": 4.7,
+      "review_count": 892,
+      "keywords": ["fitness", "watch", "tracker", "health", "wearable", "GPS"]
+    },
+    {
+      "product_id": "PROD003",
+      "name": "Organic Cotton Bath Towel Set",
+      "category": "Home & Living",
+      "subcategory": "Bathroom",
+      "brand": "ComfortHome",
+      "price": 39.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 432,
+      "description": "Luxurious 6-piece towel set made from 100% organic cotton. Ultra-soft, highly absorbent, and quick-drying. Set includes 2 bath towels, 2 hand towels, and 2 washcloths.",
+      "specifications": {
+        "material": "100% Organic Cotton",
+        "gsm": "600",
+        "pieces": "6",
+        "color_options": ["White", "Gray", "Navy", "Sage Green"],
+        "warranty": "6 months"
+      },
+      "rating": 4.6,
+      "review_count": 567,
+      "keywords": ["towel", "bath", "cotton", "organic", "home", "bathroom"]
+    },
+    {
+      "product_id": "PROD004",
+      "name": "Stainless Steel Coffee Maker Deluxe",
+      "category": "Kitchen & Dining",
+      "subcategory": "Appliances",
+      "brand": "BrewMaster",
+      "price": 89.99,
+      "currency": "USD",
+      "stock_status": "low_stock",
+      "stock_quantity": 23,
+      "description": "Programmable 12-cup coffee maker with thermal carafe, auto-brew timer, and adjustable strength settings. Features a permanent gold-tone filter and auto shut-off.",
+      "specifications": {
+        "capacity": "12 cups",
+        "carafe_type": "Thermal",
+        "programmable": "Yes",
+        "color_options": ["Stainless Steel"],
+        "warranty": "2 years"
+      },
+      "rating": 4.4,
+      "review_count": 734,
+      "keywords": ["coffee", "maker", "brewer", "kitchen", "appliance", "programmable"]
+    },
+    {
+      "product_id": "PROD005",
+      "name": "Yoga Mat Premium Non-Slip",
+      "category": "Sports & Outdoors",
+      "subcategory": "Fitness",
+      "brand": "ZenFit",
+      "price": 34.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 389,
+      "description": "Extra-thick 6mm yoga mat with superior grip and cushioning. Made from eco-friendly TPE material, lightweight and easy to clean. Includes carrying strap.",
+      "specifications": {
+        "thickness": "6mm",
+        "dimensions": "72 x 24 inches",
+        "material": "TPE",
+        "color_options": ["Purple", "Blue", "Pink", "Black"],
+        "warranty": "1 year"
+      },
+      "rating": 4.8,
+      "review_count": 1129,
+      "keywords": ["yoga", "mat", "fitness", "exercise", "workout", "non-slip"]
+    },
+    {
+      "product_id": "PROD006",
+      "name": "LED Desk Lamp with USB Charging",
+      "category": "Home & Office",
+      "subcategory": "Lighting",
+      "brand": "BrightSpace",
+      "price": 45.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 201,
+      "description": "Modern LED desk lamp with 5 brightness levels and 3 color temperatures. Features USB charging port, touch controls, and adjustable arm. Energy-efficient and eye-caring.",
+      "specifications": {
+        "brightness_levels": "5",
+        "color_temperatures": "3",
+        "usb_ports": "1",
+        "color_options": ["White", "Black"],
+        "warranty": "1 year"
+      },
+      "rating": 4.5,
+      "review_count": 445,
+      "keywords": ["lamp", "desk", "LED", "lighting", "office", "USB", "charging"]
+    },
+    {
+      "product_id": "PROD007",
+      "name": "Backpack Laptop Travel Pro",
+      "category": "Bags & Luggage",
+      "subcategory": "Backpacks",
+      "brand": "TravelGear",
+      "price": 69.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 178,
+      "description": "Durable water-resistant backpack with dedicated laptop compartment (fits up to 17 inch), USB charging port, and anti-theft design. Multiple compartments for organization.",
+      "specifications": {
+        "laptop_size": "Up to 17 inch",
+        "capacity": "35L",
+        "material": "Water-resistant polyester",
+        "color_options": ["Black", "Gray", "Navy"],
+        "warranty": "1 year"
+      },
+      "rating": 4.6,
+      "review_count": 823,
+      "keywords": ["backpack", "laptop", "travel", "bag", "USB", "water-resistant"]
+    },
+    {
+      "product_id": "PROD008",
+      "name": "Ceramic Non-Stick Cookware Set",
+      "category": "Kitchen & Dining",
+      "subcategory": "Cookware",
+      "brand": "ChefMaster",
+      "price": 159.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 94,
+      "description": "10-piece ceramic non-stick cookware set including frying pans, saucepans, and stockpot. PFOA-free, dishwasher safe, and compatible with all stovetops including induction.",
+      "specifications": {
+        "pieces": "10",
+        "coating": "Ceramic non-stick",
+        "compatibility": "All stovetops",
+        "color_options": ["Gray", "Red"],
+        "warranty": "5 years"
+      },
+      "rating": 4.7,
+      "review_count": 612,
+      "keywords": ["cookware", "pans", "ceramic", "non-stick", "kitchen", "cooking"]
+    },
+    {
+      "product_id": "PROD009",
+      "name": "Electric Standing Desk Converter",
+      "category": "Home & Office",
+      "subcategory": "Furniture",
+      "brand": "ErgoWork",
+      "price": 399.99,
+      "currency": "USD",
+      "stock_status": "out_of_stock",
+      "stock_quantity": 0,
+      "description": "Electric height-adjustable standing desk converter with memory presets. Smooth and quiet motor, spacious work surface, and cable management. Supports up to 35 lbs.",
+      "specifications": {
+        "height_range": "4.7 to 19.7 inches",
+        "work_surface": "36 x 24 inches",
+        "weight_capacity": "35 lbs",
+        "color_options": ["Black", "White"],
+        "warranty": "3 years"
+      },
+      "rating": 4.8,
+      "review_count": 389,
+      "keywords": ["standing desk", "desk", "electric", "adjustable", "office", "ergonomic"]
+    },
+    {
+      "product_id": "PROD010",
+      "name": "Smart Home Security Camera System",
+      "category": "Electronics",
+      "subcategory": "Smart Home",
+      "brand": "SecureView",
+      "price": 179.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 112,
+      "description": "2-camera wireless security system with 1080p HD video, night vision, two-way audio, and motion detection. Cloud and local storage options. Works with Alexa and Google Assistant.",
+      "specifications": {
+        "resolution": "1080p HD",
+        "cameras_included": "2",
+        "storage": "Cloud and Local",
+        "night_vision": "Yes",
+        "warranty": "2 years"
+      },
+      "rating": 4.6,
+      "review_count": 956,
+      "keywords": ["security", "camera", "smart home", "wireless", "surveillance", "night vision"]
+    },
+    {
+      "product_id": "PROD011",
+      "name": "Men's Cotton Casual Shirt - Blue",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Shirts",
+      "brand": "UrbanStyle",
+      "price": 29.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 156,
+      "description": "Classic fit casual shirt made from 100% cotton. Features button-down collar, chest pocket, and breathable fabric. Perfect for everyday wear or casual office settings.",
+      "specifications": {
+        "material": "100% Cotton",
+        "fit": "Regular Fit",
+        "sleeve_type": "Long Sleeve",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Blue", "White", "Black", "Gray"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.3,
+      "review_count": 342,
+      "keywords": ["shirt", "men", "cotton", "casual", "button-down", "blue"]
+    },
+    {
+      "product_id": "PROD012",
+      "name": "Men's Formal Dress Shirt - White",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Shirts",
+      "brand": "EliteWear",
+      "price": 39.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 203,
+      "description": "Premium formal dress shirt with wrinkle-resistant fabric. Features French cuffs, spread collar, and slim fit design. Ideal for business meetings and formal events.",
+      "specifications": {
+        "material": "65% Cotton, 35% Polyester",
+        "fit": "Slim Fit",
+        "sleeve_type": "Long Sleeve",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["White", "Light Blue", "Pink"],
+        "care_instructions": "Machine wash warm, hang dry",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.6,
+      "review_count": 489,
+      "keywords": ["shirt", "men", "formal", "dress shirt", "business", "white"]
+    },
+    {
+      "product_id": "PROD013",
+      "name": "Men's Checkered Flannel Shirt",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Shirts",
+      "brand": "RusticThreads",
+      "price": 34.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 128,
+      "description": "Comfortable flannel shirt with classic checkered pattern. Soft brushed fabric perfect for cooler weather. Features button closure and two chest pockets.",
+      "specifications": {
+        "material": "100% Cotton Flannel",
+        "fit": "Regular Fit",
+        "sleeve_type": "Long Sleeve",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Red/Black", "Blue/Gray", "Green/Navy"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 276,
+      "keywords": ["shirt", "men", "flannel", "checkered", "casual", "warm"]
+    },
+    {
+      "product_id": "PROD014",
+      "name": "Men's Slim Fit Chino Pants - Khaki",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Pants",
+      "brand": "ModernFit",
+      "price": 44.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 187,
+      "description": "Versatile chino pants with slim fit design. Made from stretch cotton blend for comfort and flexibility. Features zip fly, button closure, and side pockets.",
+      "specifications": {
+        "material": "97% Cotton, 3% Elastane",
+        "fit": "Slim Fit",
+        "rise": "Mid Rise",
+        "sizes_available": ["28", "30", "32", "34", "36", "38"],
+        "inseam_options": ["30", "32", "34"],
+        "color_options": ["Khaki", "Navy", "Black", "Olive"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "60 days quality guarantee"
+      },
+      "rating": 4.4,
+      "review_count": 512,
+      "keywords": ["pants", "men", "chino", "khaki", "slim fit", "casual"]
+    },
+    {
+      "product_id": "PROD015",
+      "name": "Men's Classic Fit Jeans - Dark Blue",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Pants",
+      "brand": "DenimCraft",
+      "price": 49.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 234,
+      "description": "Classic straight-leg jeans made from premium denim. Features five-pocket styling, belt loops, and durable construction. Timeless design for everyday wear.",
+      "specifications": {
+        "material": "100% Cotton Denim",
+        "fit": "Regular Fit",
+        "rise": "Mid Rise",
+        "sizes_available": ["28", "30", "32", "34", "36", "38", "40"],
+        "inseam_options": ["30", "32", "34"],
+        "color_options": ["Dark Blue", "Light Blue", "Black"],
+        "care_instructions": "Machine wash cold, tumble dry medium",
+        "warranty": "60 days quality guarantee"
+      },
+      "rating": 4.7,
+      "review_count": 823,
+      "keywords": ["pants", "men", "jeans", "denim", "blue", "classic"]
+    },
+    {
+      "product_id": "PROD016",
+      "name": "Men's Cargo Pants - Gray",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Pants",
+      "brand": "AdventureWear",
+      "price": 39.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 145,
+      "description": "Functional cargo pants with multiple pockets and reinforced stitching. Made from durable ripstop fabric. Perfect for outdoor activities and casual wear.",
+      "specifications": {
+        "material": "100% Cotton Ripstop",
+        "fit": "Relaxed Fit",
+        "rise": "Mid Rise",
+        "sizes_available": ["28", "30", "32", "34", "36", "38", "40"],
+        "inseam_options": ["30", "32", "34"],
+        "color_options": ["Gray", "Khaki", "Black", "Olive Green"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "60 days quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 398,
+      "keywords": ["pants", "men", "cargo", "gray", "outdoor", "pockets"]
+    },
+    {
+      "product_id": "PROD017",
+      "name": "Men's Graphic T-Shirt - Black",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's T-Shirts",
+      "brand": "UrbanThreads",
+      "price": 19.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 312,
+      "description": "Comfortable cotton t-shirt with trendy graphic print. Crew neck design with short sleeves. Pre-shrunk fabric ensures lasting fit.",
+      "specifications": {
+        "material": "100% Cotton",
+        "fit": "Regular Fit",
+        "sleeve_type": "Short Sleeve",
+        "neck_type": "Crew Neck",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Black", "White", "Gray", "Navy"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.2,
+      "review_count": 567,
+      "keywords": ["t-shirt", "men", "graphic", "black", "casual", "cotton"]
+    },
+    {
+      "product_id": "PROD018",
+      "name": "Men's V-Neck Basic T-Shirt - White",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's T-Shirts",
+      "brand": "EssentialWear",
+      "price": 14.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 428,
+      "description": "Classic v-neck t-shirt made from soft, breathable cotton. Perfect layering piece or standalone essential. Available in multiple colors.",
+      "specifications": {
+        "material": "100% Cotton",
+        "fit": "Regular Fit",
+        "sleeve_type": "Short Sleeve",
+        "neck_type": "V-Neck",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["White", "Black", "Gray", "Navy", "Burgundy"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.4,
+      "review_count": 892,
+      "keywords": ["t-shirt", "men", "v-neck", "white", "basic", "essential"]
+    },
+    {
+      "product_id": "PROD019",
+      "name": "Men's Polo T-Shirt - Navy",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's T-Shirts",
+      "brand": "SportyFit",
+      "price": 24.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 276,
+      "description": "Classic polo shirt with ribbed collar and cuffs. Made from pique cotton for breathability. Features three-button placket and side vents.",
+      "specifications": {
+        "material": "100% Pique Cotton",
+        "fit": "Regular Fit",
+        "sleeve_type": "Short Sleeve",
+        "neck_type": "Collar",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Navy", "White", "Black", "Red", "Green"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.6,
+      "review_count": 634,
+      "keywords": ["t-shirt", "men", "polo", "navy", "collar", "casual"]
+    },
+    {
+      "product_id": "PROD020",
+      "name": "Men's Athletic Shorts - Black",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Shorts",
+      "brand": "ActiveGear",
+      "price": 24.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 198,
+      "description": "Lightweight athletic shorts with moisture-wicking fabric. Features elastic waistband with drawstring, side pockets, and mesh lining. Perfect for gym or running.",
+      "specifications": {
+        "material": "100% Polyester",
+        "fit": "Regular Fit",
+        "length": "9 inch inseam",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Black", "Navy", "Gray", "Red"],
+        "features": ["Moisture-wicking", "Quick-dry", "Elastic waistband"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 445,
+      "keywords": ["shorts", "men", "athletic", "black", "gym", "sports"]
+    },
+    {
+      "product_id": "PROD021",
+      "name": "Men's Cargo Shorts - Khaki",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Shorts",
+      "brand": "OutdoorStyle",
+      "price": 29.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 167,
+      "description": "Durable cargo shorts with multiple pockets for storage. Made from cotton blend fabric. Features zip fly, button closure, and belt loops.",
+      "specifications": {
+        "material": "65% Cotton, 35% Polyester",
+        "fit": "Regular Fit",
+        "length": "11 inch inseam",
+        "sizes_available": ["28", "30", "32", "34", "36", "38"],
+        "color_options": ["Khaki", "Olive", "Navy", "Black"],
+        "features": ["Multiple pockets", "Belt loops", "Reinforced stitching"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.3,
+      "review_count": 389,
+      "keywords": ["shorts", "men", "cargo", "khaki", "pockets", "casual"]
+    },
+    {
+      "product_id": "PROD022",
+      "name": "Men's Denim Shorts - Light Blue",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Shorts",
+      "brand": "DenimCraft",
+      "price": 34.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 143,
+      "description": "Classic denim shorts with distressed finish. Features five-pocket styling and frayed hem. Perfect for summer casual wear.",
+      "specifications": {
+        "material": "100% Cotton Denim",
+        "fit": "Regular Fit",
+        "length": "9 inch inseam",
+        "sizes_available": ["28", "30", "32", "34", "36", "38"],
+        "color_options": ["Light Blue", "Dark Blue", "Black"],
+        "features": ["Five pockets", "Button fly", "Belt loops"],
+        "care_instructions": "Machine wash cold, tumble dry medium",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.4,
+      "review_count": 298,
+      "keywords": ["shorts", "men", "denim", "light blue", "summer", "casual"]
+    },
+    {
+      "product_id": "PROD023",
+      "name": "Men's Pullover Hoodie - Gray",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Hoodies",
+      "brand": "ComfortZone",
+      "price": 39.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 224,
+      "description": "Cozy pullover hoodie with soft fleece lining. Features drawstring hood, kangaroo pocket, and ribbed cuffs. Perfect for layering or lounging.",
+      "specifications": {
+        "material": "80% Cotton, 20% Polyester",
+        "fit": "Regular Fit",
+        "style": "Pullover",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Gray", "Black", "Navy", "Burgundy"],
+        "features": ["Fleece lined", "Drawstring hood", "Kangaroo pocket"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.6,
+      "review_count": 723,
+      "keywords": ["hoodie", "men", "pullover", "gray", "fleece", "comfortable"]
+    },
+    {
+      "product_id": "PROD024",
+      "name": "Men's Zip-Up Hoodie - Black",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Hoodies",
+      "brand": "UrbanActive",
+      "price": 44.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 189,
+      "description": "Full-zip hoodie with modern fit. Features two side pockets, adjustable hood, and durable zipper. Great for gym or casual wear.",
+      "specifications": {
+        "material": "80% Cotton, 20% Polyester",
+        "fit": "Regular Fit",
+        "style": "Full Zip",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Black", "Gray", "Navy", "Green"],
+        "features": ["Full zipper", "Side pockets", "Adjustable hood"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 567,
+      "keywords": ["hoodie", "men", "zip-up", "black", "athletic", "jacket"]
+    },
+    {
+      "product_id": "PROD025",
+      "name": "Men's Graphic Hoodie - Navy",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Hoodies",
+      "brand": "StreetWear",
+      "price": 42.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 156,
+      "description": "Trendy graphic hoodie with bold print design. Made from soft cotton blend. Features drawstring hood and front pouch pocket.",
+      "specifications": {
+        "material": "75% Cotton, 25% Polyester",
+        "fit": "Regular Fit",
+        "style": "Pullover",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Navy", "Black", "White", "Gray"],
+        "features": ["Graphic print", "Drawstring hood", "Pouch pocket"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.4,
+      "review_count": 412,
+      "keywords": ["hoodie", "men", "graphic", "navy", "streetwear", "trendy"]
+    },
+    {
+      "product_id": "PROD026",
+      "name": "Men's Jogger Track Pants - Black",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Track Pants",
+      "brand": "FitMotion",
+      "price": 34.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 267,
+      "description": "Comfortable jogger style track pants with tapered fit. Features elastic waistband with drawstring, side pockets, and ankle cuffs. Perfect for workouts or lounging.",
+      "specifications": {
+        "material": "100% Polyester",
+        "fit": "Tapered Fit",
+        "style": "Joggers",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Black", "Gray", "Navy", "Olive"],
+        "features": ["Elastic waistband", "Drawstring", "Zippered pockets"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.7,
+      "review_count": 834,
+      "keywords": ["track pants", "men", "joggers", "black", "athletic", "comfortable"]
+    },
+    {
+      "product_id": "PROD027",
+      "name": "Men's Classic Track Pants - Navy",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Track Pants",
+      "brand": "SportLine",
+      "price": 29.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 312,
+      "description": "Traditional track pants with side stripe detail. Made from moisture-wicking fabric. Features elastic waistband, drawstring, and side pockets.",
+      "specifications": {
+        "material": "100% Polyester",
+        "fit": "Regular Fit",
+        "style": "Classic",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Navy", "Black", "Gray", "Royal Blue"],
+        "features": ["Moisture-wicking", "Side stripes", "Elastic waistband"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 678,
+      "keywords": ["track pants", "men", "classic", "navy", "sports", "athletic"]
+    },
+    {
+      "product_id": "PROD028",
+      "name": "Men's Fleece Track Pants - Gray",
+      "category": "Clothing & Fashion",
+      "subcategory": "Men's Track Pants",
+      "brand": "WarmFit",
+      "price": 37.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 198,
+      "description": "Warm fleece-lined track pants for cold weather. Features elastic waistband with drawstring, side pockets, and ankle cuffs. Soft brushed interior for extra comfort.",
+      "specifications": {
+        "material": "80% Cotton, 20% Polyester",
+        "fit": "Regular Fit",
+        "style": "Fleece",
+        "sizes_available": ["S", "M", "L", "XL", "XXL"],
+        "color_options": ["Gray", "Black", "Navy", "Charcoal"],
+        "features": ["Fleece lined", "Elastic waistband", "Deep pockets"],
+        "care_instructions": "Machine wash cold, tumble dry low",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.6,
+      "review_count": 523,
+      "keywords": ["track pants", "men", "fleece", "gray", "warm", "winter"]
+    },
+    {
+      "product_id": "PROD029",
+      "name": "Men's Running Shoes - Black/White",
+      "category": "Footwear",
+      "subcategory": "Sports Shoes",
+      "brand": "RunFast",
+      "price": 59.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 187,
+      "description": "Lightweight running shoes with breathable mesh upper and cushioned sole. Features responsive foam midsole, rubber outsole for traction, and padded collar for comfort.",
+      "specifications": {
+        "material": "Mesh and Synthetic",
+        "sole_material": "Rubber",
+        "closure_type": "Lace-up",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular", "Wide"],
+        "color_options": ["Black/White", "Navy/Gray", "Red/Black"],
+        "features": ["Breathable", "Cushioned", "Lightweight"],
+        "care_instructions": "Wipe clean with damp cloth",
+        "warranty": "90 days quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 892,
+      "keywords": ["shoes", "running", "sports", "athletic", "black", "white", "breathable"]
+    },
+    {
+      "product_id": "PROD030",
+      "name": "Men's Athletic Training Shoes - Gray",
+      "category": "Footwear",
+      "subcategory": "Sports Shoes",
+      "brand": "GymPro",
+      "price": 54.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 234,
+      "description": "Versatile training shoes designed for gym workouts. Features stable platform, flexible forefoot, and durable construction. Ideal for weightlifting and cross-training.",
+      "specifications": {
+        "material": "Synthetic Leather and Mesh",
+        "sole_material": "Rubber",
+        "closure_type": "Lace-up",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular"],
+        "color_options": ["Gray", "Black", "Navy", "Red"],
+        "features": ["Stable platform", "Flexible", "Durable"],
+        "care_instructions": "Wipe clean with damp cloth",
+        "warranty": "90 days quality guarantee"
+      },
+      "rating": 4.6,
+      "review_count": 645,
+      "keywords": ["shoes", "training", "gym", "sports", "athletic", "gray", "workout"]
+    },
+    {
+      "product_id": "PROD031",
+      "name": "Men's Basketball Shoes - Red/Black",
+      "category": "Footwear",
+      "subcategory": "Sports Shoes",
+      "brand": "HoopStar",
+      "price": 79.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 143,
+      "description": "High-performance basketball shoes with excellent ankle support. Features air cushioning, herringbone traction pattern, and durable leather upper.",
+      "specifications": {
+        "material": "Leather and Synthetic",
+        "sole_material": "Rubber",
+        "closure_type": "Lace-up",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13", "14"],
+        "width_options": ["Regular"],
+        "color_options": ["Red/Black", "White/Blue", "Black/Gold"],
+        "features": ["Ankle support", "Air cushioning", "Traction"],
+        "care_instructions": "Wipe clean with damp cloth",
+        "warranty": "90 days quality guarantee"
+      },
+      "rating": 4.7,
+      "review_count": 534,
+      "keywords": ["shoes", "basketball", "sports", "athletic", "red", "black", "high-top"]
+    },
+    {
+      "product_id": "PROD032",
+      "name": "Men's Leather Dress Shoes - Brown",
+      "category": "Footwear",
+      "subcategory": "Leather Shoes",
+      "brand": "ClassicStep",
+      "price": 89.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 156,
+      "description": "Premium leather oxford shoes perfect for formal occasions. Features genuine leather upper, cushioned insole, and classic lace-up design. Polished finish for professional look.",
+      "specifications": {
+        "material": "Genuine Leather",
+        "sole_material": "Leather and Rubber",
+        "closure_type": "Lace-up",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular", "Wide"],
+        "color_options": ["Brown", "Black", "Tan"],
+        "features": ["Genuine leather", "Cushioned insole", "Polished finish"],
+        "care_instructions": "Polish regularly, keep dry",
+        "warranty": "6 months quality guarantee"
+      },
+      "rating": 4.8,
+      "review_count": 723,
+      "keywords": ["shoes", "leather", "dress", "formal", "brown", "oxford", "professional"]
+    },
+    {
+      "product_id": "PROD033",
+      "name": "Men's Leather Loafers - Black",
+      "category": "Footwear",
+      "subcategory": "Leather Shoes",
+      "brand": "ComfortWalk",
+      "price": 69.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 198,
+      "description": "Stylish leather loafers with slip-on design. Features soft leather lining, cushioned footbed, and flexible rubber sole. Perfect for business casual or smart casual wear.",
+      "specifications": {
+        "material": "Genuine Leather",
+        "sole_material": "Rubber",
+        "closure_type": "Slip-on",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular", "Wide"],
+        "color_options": ["Black", "Brown", "Burgundy"],
+        "features": ["Slip-on", "Cushioned footbed", "Flexible sole"],
+        "care_instructions": "Polish regularly, keep dry",
+        "warranty": "6 months quality guarantee"
+      },
+      "rating": 4.7,
+      "review_count": 612,
+      "keywords": ["shoes", "leather", "loafers", "black", "slip-on", "casual", "formal"]
+    },
+    {
+      "product_id": "PROD034",
+      "name": "Men's Leather Boots - Dark Brown",
+      "category": "Footwear",
+      "subcategory": "Leather Shoes",
+      "brand": "RuggedStyle",
+      "price": 119.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 124,
+      "description": "Durable leather boots with ankle support. Features premium full-grain leather, padded collar, and oil-resistant sole. Suitable for work or casual wear.",
+      "specifications": {
+        "material": "Full-Grain Leather",
+        "sole_material": "Rubber",
+        "closure_type": "Lace-up",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular", "Wide"],
+        "color_options": ["Dark Brown", "Black", "Tan"],
+        "features": ["Full-grain leather", "Ankle support", "Oil-resistant sole"],
+        "care_instructions": "Clean and condition leather regularly",
+        "warranty": "1 year quality guarantee"
+      },
+      "rating": 4.8,
+      "review_count": 487,
+      "keywords": ["shoes", "boots", "leather", "brown", "durable", "work", "ankle"]
+    },
+    {
+      "product_id": "PROD035",
+      "name": "Men's Casual Sandals - Brown",
+      "category": "Footwear",
+      "subcategory": "Sandals",
+      "brand": "SummerWalk",
+      "price": 34.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 267,
+      "description": "Comfortable casual sandals with adjustable straps. Features cushioned footbed, EVA midsole, and durable rubber outsole. Perfect for summer and outdoor activities.",
+      "specifications": {
+        "material": "Synthetic Leather",
+        "sole_material": "Rubber",
+        "closure_type": "Velcro straps",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular"],
+        "color_options": ["Brown", "Black", "Tan"],
+        "features": ["Adjustable straps", "Cushioned footbed", "EVA midsole"],
+        "care_instructions": "Wipe clean with damp cloth",
+        "warranty": "60 days quality guarantee"
+      },
+      "rating": 4.4,
+      "review_count": 534,
+      "keywords": ["sandals", "men", "casual", "brown", "summer", "comfortable", "outdoor"]
+    },
+    {
+      "product_id": "PROD036",
+      "name": "Men's Sports Sandals - Black",
+      "category": "Footwear",
+      "subcategory": "Sandals",
+      "brand": "ActiveStride",
+      "price": 39.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 189,
+      "description": "Rugged sports sandals designed for outdoor adventures. Features quick-dry webbing, contoured footbed, and multi-directional traction. Water-friendly and durable.",
+      "specifications": {
+        "material": "Synthetic and Webbing",
+        "sole_material": "Rubber",
+        "closure_type": "Adjustable straps",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular"],
+        "color_options": ["Black", "Navy", "Olive"],
+        "features": ["Quick-dry", "Water-friendly", "Traction sole"],
+        "care_instructions": "Rinse with water after use",
+        "warranty": "90 days quality guarantee"
+      },
+      "rating": 4.6,
+      "review_count": 678,
+      "keywords": ["sandals", "men", "sports", "outdoor", "black", "water", "hiking"]
+    },
+    {
+      "product_id": "PROD037",
+      "name": "Men's Slide Sandals - Navy",
+      "category": "Footwear",
+      "subcategory": "Sandals",
+      "brand": "EasySlide",
+      "price": 24.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 342,
+      "description": "Simple slide sandals for casual wear. Features soft footbed, single strap design, and lightweight construction. Perfect for pool, beach, or lounging.",
+      "specifications": {
+        "material": "Synthetic",
+        "sole_material": "EVA",
+        "closure_type": "Slip-on",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular"],
+        "color_options": ["Navy", "Black", "Gray", "White"],
+        "features": ["Lightweight", "Soft footbed", "Easy slip-on"],
+        "care_instructions": "Wipe clean with damp cloth",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.3,
+      "review_count": 892,
+      "keywords": ["sandals", "men", "slides", "navy", "casual", "beach", "pool"]
+    },
+    {
+      "product_id": "PROD038",
+      "name": "Men's Flip Flops - Black",
+      "category": "Footwear",
+      "subcategory": "Chappals",
+      "brand": "BeachLife",
+      "price": 14.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 456,
+      "description": "Classic flip flops with comfortable thong design. Features soft rubber straps, cushioned footbed, and textured sole for grip. Essential summer footwear.",
+      "specifications": {
+        "material": "Rubber",
+        "sole_material": "Rubber",
+        "closure_type": "Thong",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular"],
+        "color_options": ["Black", "Navy", "Brown", "Gray"],
+        "features": ["Cushioned footbed", "Textured sole", "Lightweight"],
+        "care_instructions": "Rinse with water",
+        "warranty": "30 days quality guarantee"
+      },
+      "rating": 4.2,
+      "review_count": 1234,
+      "keywords": ["flip flops", "chappals", "men", "black", "beach", "casual", "summer"]
+    },
+    {
+      "product_id": "PROD039",
+      "name": "Men's Premium Rubber Slippers - Brown",
+      "category": "Footwear",
+      "subcategory": "Chappals",
+      "brand": "ComfortStep",
+      "price": 19.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 389,
+      "description": "Durable rubber slippers with contoured footbed. Features anti-slip sole, comfortable straps, and water-resistant design. Perfect for daily wear.",
+      "specifications": {
+        "material": "Premium Rubber",
+        "sole_material": "Rubber",
+        "closure_type": "Thong",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular"],
+        "color_options": ["Brown", "Black", "Blue"],
+        "features": ["Anti-slip", "Contoured footbed", "Water-resistant"],
+        "care_instructions": "Rinse with water",
+        "warranty": "60 days quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 756,
+      "keywords": ["slippers", "chappals", "men", "brown", "rubber", "comfortable", "daily"]
+    },
+    {
+      "product_id": "PROD040",
+      "name": "Men's Indoor House Slippers - Gray",
+      "category": "Footwear",
+      "subcategory": "Chappals",
+      "brand": "HomeComfort",
+      "price": 22.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 298,
+      "description": "Cozy indoor slippers with soft plush lining. Features memory foam footbed, slip-resistant sole, and closed-toe design. Ideal for home use.",
+      "specifications": {
+        "material": "Plush Fabric",
+        "sole_material": "Rubber",
+        "closure_type": "Slip-on",
+        "sizes_available": ["7", "8", "9", "10", "11", "12", "13"],
+        "width_options": ["Regular"],
+        "color_options": ["Gray", "Brown", "Black", "Navy"],
+        "features": ["Memory foam", "Plush lining", "Slip-resistant"],
+        "care_instructions": "Hand wash cold, air dry",
+        "warranty": "60 days quality guarantee"
+      },
+      "rating": 4.7,
+      "review_count": 623,
+      "keywords": ["slippers", "chappals", "men", "gray", "indoor", "home", "comfortable"]
+    },
+    {
+      "product_id": "PROD041",
+      "name": "Men's Leather Belt - Black",
+      "category": "Accessories",
+      "subcategory": "Belts",
+      "brand": "ClassicStyle",
+      "price": 29.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 234,
+      "description": "Classic leather belt with metal buckle. Made from genuine leather with stitched edges. Versatile design suitable for formal and casual wear.",
+      "specifications": {
+        "material": "Genuine Leather",
+        "buckle_material": "Metal",
+        "width": "1.5 inches",
+        "sizes_available": ["32", "34", "36", "38", "40", "42", "44"],
+        "color_options": ["Black", "Brown", "Tan"],
+        "features": ["Genuine leather", "Metal buckle", "Stitched edges"],
+        "care_instructions": "Wipe clean, condition leather",
+        "warranty": "1 year quality guarantee"
+      },
+      "rating": 4.5,
+      "review_count": 892,
+      "keywords": ["belt", "men", "leather", "black", "formal", "casual", "accessory"]
+    },
+    {
+      "product_id": "PROD042",
+      "name": "Men's Reversible Belt - Brown/Black",
+      "category": "Accessories",
+      "subcategory": "Belts",
+      "brand": "DualStyle",
+      "price": 34.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 178,
+      "description": "Reversible leather belt offering two colors in one. Features rotating buckle mechanism, genuine leather construction, and versatile design.",
+      "specifications": {
+        "material": "Genuine Leather",
+        "buckle_material": "Metal",
+        "width": "1.25 inches",
+        "sizes_available": ["32", "34", "36", "38", "40", "42", "44"],
+        "color_options": ["Brown/Black", "Black/Tan"],
+        "features": ["Reversible", "Rotating buckle", "Two colors"],
+        "care_instructions": "Wipe clean, condition leather",
+        "warranty": "1 year quality guarantee"
+      },
+      "rating": 4.6,
+      "review_count": 567,
+      "keywords": ["belt", "men", "reversible", "brown", "black", "leather", "versatile"]
+    },
+    {
+      "product_id": "PROD043",
+      "name": "Men's Casual Canvas Belt - Navy",
+      "category": "Accessories",
+      "subcategory": "Belts",
+      "brand": "CasualWear",
+      "price": 19.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 312,
+      "description": "Durable canvas belt with D-ring buckle. Features woven cotton canvas, adjustable length, and casual style. Perfect for jeans and casual pants.",
+      "specifications": {
+        "material": "Cotton Canvas",
+        "buckle_material": "Metal D-Ring",
+        "width": "1.5 inches",
+        "sizes_available": ["One Size (adjustable up to 44)"],
+        "color_options": ["Navy", "Black", "Olive", "Khaki"],
+        "features": ["Canvas material", "D-ring buckle", "Adjustable"],
+        "care_instructions": "Machine wash cold",
+        "warranty": "90 days quality guarantee"
+      },
+      "rating": 4.4,
+      "review_count": 445,
+      "keywords": ["belt", "men", "canvas", "navy", "casual", "d-ring", "adjustable"]
+    },
+    {
+      "product_id": "PROD044",
+      "name": "Men's Braided Leather Belt - Tan",
+      "category": "Accessories",
+      "subcategory": "Belts",
+      "brand": "ArtisanCraft",
+      "price": 39.99,
+      "currency": "USD",
+      "stock_status": "in_stock",
+      "stock_quantity": 145,
+      "description": "Handcrafted braided leather belt with unique texture. Features woven leather strands, metal buckle, and stylish design. Adds character to any outfit.",
+      "specifications": {
+        "material": "Genuine Braided Leather",
+        "buckle_material": "Metal",
+        "width": "1.5 inches",
+        "sizes_available": ["32", "34", "36", "38", "40", "42"],
+        "color_options": ["Tan", "Brown", "Black"],
+        "features": ["Braided design", "Handcrafted", "Unique texture"],
+        "care_instructions": "Wipe clean, condition leather",
+        "warranty": "1 year quality guarantee"
+      },
+      "rating": 4.7,
+      "review_count": 334,
+      "keywords": ["belt", "men", "braided", "leather", "tan", "handcrafted", "stylish"]
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD10001",
+      "customer_email": "john.smith@email.com",
+      "customer_phone": "+1-555-0101",
+      "order_date": "2026-01-08T10:30:00Z",
+      "order_status": "shipped",
+      "tracking_number": "TRK789456123",
+      "carrier": "FedEx",
+      "estimated_delivery": "2026-01-13",
+      "shipping_address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "zip": "10001",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD001",
+          "product_name": "Wireless Bluetooth Headphones Pro",
+          "quantity": 1,
+          "price": 129.99
+        }
+      ],
+      "subtotal": 129.99,
+      "shipping_cost": 5.99,
+      "tax": 11.70,
+      "total": 147.68,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10002",
+      "customer_email": "sarah.jones@email.com",
+      "customer_phone": "+1-555-0102",
+      "order_date": "2026-01-09T14:15:00Z",
+      "order_status": "processing",
+      "tracking_number": null,
+      "carrier": null,
+      "estimated_delivery": "2026-01-15",
+      "shipping_address": {
+        "street": "456 Oak Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zip": "90001",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD002",
+          "product_name": "Smart Fitness Watch Ultra",
+          "quantity": 1,
+          "price": 249.99
+        },
+        {
+          "product_id": "PROD005",
+          "product_name": "Yoga Mat Premium Non-Slip",
+          "quantity": 1,
+          "price": 34.99
+        }
+      ],
+      "subtotal": 284.98,
+      "shipping_cost": 7.99,
+      "tax": 25.65,
+      "total": 318.62,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10003",
+      "customer_email": "mike.wilson@email.com",
+      "customer_phone": "+1-555-0103",
+      "order_date": "2026-01-10T09:45:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK456789321",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-01-11",
+      "actual_delivery": "2026-01-11T16:20:00Z",
+      "shipping_address": {
+        "street": "789 Pine Road",
+        "city": "Chicago",
+        "state": "IL",
+        "zip": "60601",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD003",
+          "product_name": "Organic Cotton Bath Towel Set",
+          "quantity": 2,
+          "price": 39.99
+        }
+      ],
+      "subtotal": 79.98,
+      "shipping_cost": 0.00,
+      "tax": 7.20,
+      "total": 87.18,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express Shipping (2-3 business days)"
+    },
+    {
+      "order_id": "ORD10016",
+      "customer_email": "michael.davis@email.com",
+      "customer_phone": "+1-555-0116",
+      "order_date": "2026-01-12T08:45:00Z",
+      "order_status": "shipped",
+      "tracking_number": "TRK333666999",
+      "carrier": "FedEx",
+      "estimated_delivery": "2026-01-15",
+      "shipping_address": {
+        "street": "678 Pine Street",
+        "city": "Austin",
+        "state": "TX",
+        "zip": "78701",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD029",
+          "product_name": "Men's Running Shoes - Black/White",
+          "quantity": 1,
+          "price": 59.99
+        },
+        {
+          "product_id": "PROD037",
+          "product_name": "Men's Slide Sandals - Navy",
+          "quantity": 1,
+          "price": 24.99
+        }
+      ],
+      "subtotal": 84.98,
+      "shipping_cost": 5.99,
+      "tax": 7.65,
+      "total": 98.62,
+      "payment_method": "Debit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10017",
+      "customer_email": "patricia.miller@email.com",
+      "customer_phone": "+1-555-0117",
+      "order_date": "2026-01-11T14:00:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK444777000",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-01-12",
+      "actual_delivery": "2026-01-12T15:30:00Z",
+      "shipping_address": {
+        "street": "234 Maple Avenue",
+        "city": "Charlotte",
+        "state": "NC",
+        "zip": "28201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD032",
+          "product_name": "Men's Leather Dress Shoes - Brown",
+          "quantity": 1,
+          "price": 89.99
+        },
+        {
+          "product_id": "PROD041",
+          "product_name": "Men's Leather Belt - Black",
+          "quantity": 1,
+          "price": 29.99
+        }
+      ],
+      "subtotal": 119.98,
+      "shipping_cost": 0.00,
+      "tax": 10.80,
+      "total": 130.78,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express Shipping (2-3 business days)"
+    },
+    {
+      "order_id": "ORD10018",
+      "customer_email": "robert.garcia@email.com",
+      "customer_phone": "+1-555-0118",
+      "order_date": "2026-01-10T16:30:00Z",
+      "order_status": "processing",
+      "tracking_number": null,
+      "carrier": null,
+      "estimated_delivery": "2026-01-17",
+      "shipping_address": {
+        "street": "567 Oak Lane",
+        "city": "Columbus",
+        "state": "OH",
+        "zip": "43201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD030",
+          "product_name": "Men's Athletic Training Shoes - Gray",
+          "quantity": 1,
+          "price": 54.99
+        },
+        {
+          "product_id": "PROD020",
+          "product_name": "Men's Athletic Shorts - Black",
+          "quantity": 2,
+          "price": 24.99
+        }
+      ],
+      "subtotal": 104.97,
+      "shipping_cost": 5.99,
+      "tax": 9.45,
+      "total": 120.41,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10019",
+      "customer_email": "linda.rodriguez@email.com",
+      "customer_phone": "+1-555-0119",
+      "order_date": "2026-01-09T12:15:00Z",
+      "order_status": "cancelled",
+      "tracking_number": null,
+      "carrier": null,
+      "estimated_delivery": null,
+      "cancellation_date": "2026-01-09T14:00:00Z",
+      "cancellation_reason": "Customer requested cancellation - found better price",
+      "refund_status": "processed",
+      "refund_date": "2026-01-09T15:30:00Z",
+      "shipping_address": {
+        "street": "890 River Road",
+        "city": "Indianapolis",
+        "state": "IN",
+        "zip": "46201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD031",
+          "product_name": "Men's Basketball Shoes - Red/Black",
+          "quantity": 1,
+          "price": 79.99
+        }
+      ],
+      "subtotal": 79.99,
+      "shipping_cost": 5.99,
+      "tax": 7.20,
+      "total": 93.18,
+      "refund_amount": 93.18,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10020",
+      "customer_email": "william.martinez@email.com",
+      "customer_phone": "+1-555-0120",
+      "order_date": "2026-01-08T10:00:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK555888111",
+      "carrier": "USPS",
+      "estimated_delivery": "2026-01-11",
+      "actual_delivery": "2026-01-11T13:45:00Z",
+      "shipping_address": {
+        "street": "123 Beach Boulevard",
+        "city": "San Francisco",
+        "state": "CA",
+        "zip": "94101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD035",
+          "product_name": "Men's Casual Sandals - Brown",
+          "quantity": 1,
+          "price": 34.99
+        },
+        {
+          "product_id": "PROD038",
+          "product_name": "Men's Flip Flops - Black",
+          "quantity": 2,
+          "price": 14.99
+        }
+      ],
+      "subtotal": 64.97,
+      "shipping_cost": 5.99,
+      "tax": 5.85,
+      "total": 76.81,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10021",
+      "customer_email": "barbara.hernandez@email.com",
+      "customer_phone": "+1-555-0121",
+      "order_date": "2026-01-13T11:30:00Z",
+      "order_status": "processing",
+      "tracking_number": null,
+      "carrier": null,
+      "estimated_delivery": "2026-01-19",
+      "shipping_address": {
+        "street": "456 Summit Drive",
+        "city": "Fort Worth",
+        "state": "TX",
+        "zip": "76101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD033",
+          "product_name": "Men's Leather Loafers - Black",
+          "quantity": 1,
+          "price": 69.99
+        },
+        {
+          "product_id": "PROD042",
+          "product_name": "Men's Reversible Belt - Brown/Black",
+          "quantity": 1,
+          "price": 34.99
+        }
+      ],
+      "subtotal": 104.98,
+      "shipping_cost": 5.99,
+      "tax": 9.45,
+      "total": 120.42,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10022",
+      "customer_email": "richard.lopez@email.com",
+      "customer_phone": "+1-555-0122",
+      "order_date": "2026-01-07T15:20:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK666999222",
+      "carrier": "FedEx",
+      "estimated_delivery": "2026-01-10",
+      "actual_delivery": "2026-01-10T11:00:00Z",
+      "shipping_address": {
+        "street": "789 Valley View",
+        "city": "Jacksonville",
+        "state": "FL",
+        "zip": "32201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD034",
+          "product_name": "Men's Leather Boots - Dark Brown",
+          "quantity": 1,
+          "price": 119.99
+        }
+      ],
+      "subtotal": 119.99,
+      "shipping_cost": 0.00,
+      "tax": 10.80,
+      "total": 130.79,
+      "payment_method": "Debit Card",
+      "shipping_method": "Express Shipping (2-3 business days)"
+    },
+    {
+      "order_id": "ORD10023",
+      "customer_email": "susan.gonzalez@email.com",
+      "customer_phone": "+1-555-0123",
+      "order_date": "2026-01-12T09:45:00Z",
+      "order_status": "shipped",
+      "tracking_number": "TRK777000333",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-01-16",
+      "shipping_address": {
+        "street": "234 Hill Street",
+        "city": "San Jose",
+        "state": "CA",
+        "zip": "95101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD036",
+          "product_name": "Men's Sports Sandals - Black",
+          "quantity": 1,
+          "price": 39.99
+        },
+        {
+          "product_id": "PROD043",
+          "product_name": "Men's Casual Canvas Belt - Navy",
+          "quantity": 1,
+          "price": 19.99
+        }
+      ],
+      "subtotal": 59.98,
+      "shipping_cost": 5.99,
+      "tax": 5.40,
+      "total": 71.37,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10024",
+      "customer_email": "thomas.wilson@email.com",
+      "customer_phone": "+1-555-0124",
+      "order_date": "2026-01-11T13:00:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK888111444",
+      "carrier": "USPS",
+      "estimated_delivery": "2026-01-13",
+      "actual_delivery": "2026-01-13T09:30:00Z",
+      "shipping_address": {
+        "street": "567 Creek Road",
+        "city": "Dallas",
+        "state": "TX",
+        "zip": "75201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD039",
+          "product_name": "Men's Premium Rubber Slippers - Brown",
+          "quantity": 2,
+          "price": 19.99
+        },
+        {
+          "product_id": "PROD040",
+          "product_name": "Men's Indoor House Slippers - Gray",
+          "quantity": 1,
+          "price": 22.99
+        }
+      ],
+      "subtotal": 62.97,
+      "shipping_cost": 5.99,
+      "tax": 5.67,
+      "total": 74.63,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10025",
+      "customer_email": "nancy.anderson@email.com",
+      "customer_phone": "+1-555-0125",
+      "order_date": "2026-01-06T14:15:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK999222555",
+      "carrier": "FedEx",
+      "estimated_delivery": "2026-01-09",
+      "actual_delivery": "2026-01-09T16:00:00Z",
+      "shipping_address": {
+        "street": "890 Forest Lane",
+        "city": "Detroit",
+        "state": "MI",
+        "zip": "48201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD044",
+          "product_name": "Men's Braided Leather Belt - Tan",
+          "quantity": 1,
+          "price": 39.99
+        },
+        {
+          "product_id": "PROD012",
+          "product_name": "Men's Formal Dress Shirt - White",
+          "quantity": 1,
+          "price": 39.99
+        }
+      ],
+      "subtotal": 79.98,
+      "shipping_cost": 5.99,
+      "tax": 7.20,
+      "total": 93.17,
+      "payment_method": "Debit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10004",
+      "customer_email": "emily.brown@email.com",
+      "customer_phone": "+1-555-0104",
+      "order_date": "2026-01-07T16:00:00Z",
+      "order_status": "shipped",
+      "tracking_number": "TRK654321987",
+      "carrier": "USPS",
+      "estimated_delivery": "2026-01-14",
+      "shipping_address": {
+        "street": "321 Elm Street",
+        "city": "Houston",
+        "state": "TX",
+        "zip": "77001",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD004",
+          "product_name": "Stainless Steel Coffee Maker Deluxe",
+          "quantity": 1,
+          "price": 89.99
+        },
+        {
+          "product_id": "PROD008",
+          "product_name": "Ceramic Non-Stick Cookware Set",
+          "quantity": 1,
+          "price": 159.99
+        }
+      ],
+      "subtotal": 249.98,
+      "shipping_cost": 8.99,
+      "tax": 22.50,
+      "total": 281.47,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10005",
+      "customer_email": "david.lee@email.com",
+      "customer_phone": "+1-555-0105",
+      "order_date": "2026-01-11T11:20:00Z",
+      "order_status": "pending",
+      "tracking_number": null,
+      "carrier": null,
+      "estimated_delivery": "2026-01-17",
+      "shipping_address": {
+        "street": "567 Maple Drive",
+        "city": "Phoenix",
+        "state": "AZ",
+        "zip": "85001",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD006",
+          "product_name": "LED Desk Lamp with USB Charging",
+          "quantity": 2,
+          "price": 45.99
+        }
+      ],
+      "subtotal": 91.98,
+      "shipping_cost": 5.99,
+      "tax": 8.28,
+      "total": 106.25,
+      "payment_method": "Debit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10006",
+      "customer_email": "lisa.martinez@email.com",
+      "customer_phone": "+1-555-0106",
+      "order_date": "2026-01-06T13:30:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK987123456",
+      "carrier": "FedEx",
+      "estimated_delivery": "2026-01-10",
+      "actual_delivery": "2026-01-09T14:45:00Z",
+      "shipping_address": {
+        "street": "890 Cedar Lane",
+        "city": "Philadelphia",
+        "state": "PA",
+        "zip": "19101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD007",
+          "product_name": "Backpack Laptop Travel Pro",
+          "quantity": 1,
+          "price": 69.99
+        }
+      ],
+      "subtotal": 69.99,
+      "shipping_cost": 0.00,
+      "tax": 6.30,
+      "total": 76.29,
+      "payment_method": "PayPal",
+      "shipping_method": "Express Shipping (2-3 business days)"
+    },
+    {
+      "order_id": "ORD10007",
+      "customer_email": "robert.taylor@email.com",
+      "customer_phone": "+1-555-0107",
+      "order_date": "2026-01-08T08:00:00Z",
+      "order_status": "shipped",
+      "tracking_number": "TRK147258369",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-01-12",
+      "shipping_address": {
+        "street": "234 Birch Court",
+        "city": "San Antonio",
+        "state": "TX",
+        "zip": "78201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD010",
+          "product_name": "Smart Home Security Camera System",
+          "quantity": 1,
+          "price": 179.99
+        }
+      ],
+      "subtotal": 179.99,
+      "shipping_cost": 7.99,
+      "tax": 16.20,
+      "total": 204.18,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10008",
+      "customer_email": "jennifer.white@email.com",
+      "customer_phone": "+1-555-0108",
+      "order_date": "2026-01-05T15:45:00Z",
+      "order_status": "returned",
+      "tracking_number": "TRK369258147",
+      "carrier": "USPS",
+      "estimated_delivery": "2026-01-09",
+      "actual_delivery": "2026-01-09T11:30:00Z",
+      "return_date": "2026-01-10T09:00:00Z",
+      "return_reason": "Changed mind",
+      "refund_status": "processed",
+      "refund_date": "2026-01-11T10:15:00Z",
+      "shipping_address": {
+        "street": "678 Willow Way",
+        "city": "San Diego",
+        "state": "CA",
+        "zip": "92101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD003",
+          "product_name": "Organic Cotton Bath Towel Set",
+          "quantity": 1,
+          "price": 39.99
+        }
+      ],
+      "subtotal": 39.99,
+      "shipping_cost": 5.99,
+      "tax": 3.60,
+      "total": 49.58,
+      "refund_amount": 49.58,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10009",
+      "customer_email": "alex.martinez@email.com",
+      "customer_phone": "+1-555-0109",
+      "order_date": "2026-01-12T14:30:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK555888999",
+      "carrier": "FedEx",
+      "estimated_delivery": "2026-01-13",
+      "actual_delivery": "2026-01-13T10:15:00Z",
+      "shipping_address": {
+        "street": "234 River Street",
+        "city": "Boston",
+        "state": "MA",
+        "zip": "02101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD011",
+          "product_name": "Men's Cotton Casual Shirt - Blue",
+          "quantity": 2,
+          "price": 29.99
+        },
+        {
+          "product_id": "PROD017",
+          "product_name": "Men's Graphic T-Shirt - Black",
+          "quantity": 1,
+          "price": 19.99
+        }
+      ],
+      "subtotal": 79.97,
+      "shipping_cost": 5.99,
+      "tax": 7.20,
+      "total": 93.16,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express Shipping (2-3 business days)"
+    },
+    {
+      "order_id": "ORD10010",
+      "customer_email": "maria.garcia@email.com",
+      "customer_phone": "+1-555-0110",
+      "order_date": "2026-01-11T16:20:00Z",
+      "order_status": "shipped",
+      "tracking_number": "TRK777444111",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-01-15",
+      "shipping_address": {
+        "street": "567 Mountain View",
+        "city": "Denver",
+        "state": "CO",
+        "zip": "80201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD014",
+          "product_name": "Men's Slim Fit Chino Pants - Khaki",
+          "quantity": 1,
+          "price": 44.99
+        },
+        {
+          "product_id": "PROD023",
+          "product_name": "Men's Pullover Hoodie - Gray",
+          "quantity": 1,
+          "price": 39.99
+        }
+      ],
+      "subtotal": 84.98,
+      "shipping_cost": 0.00,
+      "tax": 7.65,
+      "total": 92.63,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10011",
+      "customer_email": "james.wilson@email.com",
+      "customer_phone": "+1-555-0111",
+      "order_date": "2026-01-13T09:00:00Z",
+      "order_status": "processing",
+      "tracking_number": null,
+      "carrier": null,
+      "estimated_delivery": "2026-01-19",
+      "shipping_address": {
+        "street": "890 Lake Drive",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD020",
+          "product_name": "Men's Athletic Shorts - Black",
+          "quantity": 2,
+          "price": 24.99
+        },
+        {
+          "product_id": "PROD026",
+          "product_name": "Men's Jogger Track Pants - Black",
+          "quantity": 1,
+          "price": 34.99
+        }
+      ],
+      "subtotal": 84.97,
+      "shipping_cost": 5.99,
+      "tax": 7.65,
+      "total": 98.61,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10012",
+      "customer_email": "sophia.anderson@email.com",
+      "customer_phone": "+1-555-0112",
+      "order_date": "2026-01-10T11:45:00Z",
+      "order_status": "cancelled",
+      "tracking_number": null,
+      "carrier": null,
+      "estimated_delivery": null,
+      "cancellation_date": "2026-01-10T13:20:00Z",
+      "cancellation_reason": "Customer requested cancellation",
+      "refund_status": "processed",
+      "refund_date": "2026-01-10T14:00:00Z",
+      "shipping_address": {
+        "street": "432 Park Avenue",
+        "city": "Miami",
+        "state": "FL",
+        "zip": "33101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD015",
+          "product_name": "Men's Classic Fit Jeans - Dark Blue",
+          "quantity": 1,
+          "price": 49.99
+        }
+      ],
+      "subtotal": 49.99,
+      "shipping_cost": 5.99,
+      "tax": 4.50,
+      "total": 60.48,
+      "refund_amount": 60.48,
+      "payment_method": "Credit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10013",
+      "customer_email": "kevin.brown@email.com",
+      "customer_phone": "+1-555-0113",
+      "order_date": "2026-01-08T15:10:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK888666333",
+      "carrier": "USPS",
+      "estimated_delivery": "2026-01-12",
+      "actual_delivery": "2026-01-11T14:30:00Z",
+      "shipping_address": {
+        "street": "123 Sunset Boulevard",
+        "city": "Las Vegas",
+        "state": "NV",
+        "zip": "89101",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD012",
+          "product_name": "Men's Formal Dress Shirt - White",
+          "quantity": 1,
+          "price": 39.99
+        },
+        {
+          "product_id": "PROD016",
+          "product_name": "Men's Cargo Pants - Gray",
+          "quantity": 1,
+          "price": 39.99
+        }
+      ],
+      "subtotal": 79.98,
+      "shipping_cost": 5.99,
+      "tax": 7.20,
+      "total": 93.17,
+      "payment_method": "Debit Card",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10014",
+      "customer_email": "olivia.johnson@email.com",
+      "customer_phone": "+1-555-0114",
+      "order_date": "2026-01-09T10:30:00Z",
+      "order_status": "shipped",
+      "tracking_number": "TRK999111444",
+      "carrier": "FedEx",
+      "estimated_delivery": "2026-01-14",
+      "shipping_address": {
+        "street": "789 Ocean Drive",
+        "city": "Portland",
+        "state": "OR",
+        "zip": "97201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD018",
+          "product_name": "Men's V-Neck Basic T-Shirt - White",
+          "quantity": 3,
+          "price": 14.99
+        },
+        {
+          "product_id": "PROD022",
+          "product_name": "Men's Denim Shorts - Light Blue",
+          "quantity": 1,
+          "price": 34.99
+        }
+      ],
+      "subtotal": 79.96,
+      "shipping_cost": 5.99,
+      "tax": 7.20,
+      "total": 93.15,
+      "payment_method": "PayPal",
+      "shipping_method": "Standard Shipping (5-7 business days)"
+    },
+    {
+      "order_id": "ORD10015",
+      "customer_email": "daniel.thomas@email.com",
+      "customer_phone": "+1-555-0115",
+      "order_date": "2026-01-07T13:15:00Z",
+      "order_status": "delivered",
+      "tracking_number": "TRK222555888",
+      "carrier": "UPS",
+      "estimated_delivery": "2026-01-10",
+      "actual_delivery": "2026-01-10T16:45:00Z",
+      "shipping_address": {
+        "street": "456 Broadway Street",
+        "city": "Nashville",
+        "state": "TN",
+        "zip": "37201",
+        "country": "USA"
+      },
+      "items": [
+        {
+          "product_id": "PROD024",
+          "product_name": "Men's Zip-Up Hoodie - Black",
+          "quantity": 1,
+          "price": 44.99
+        },
+        {
+          "product_id": "PROD027",
+          "product_name": "Men's Classic Track Pants - Navy",
+          "quantity": 2,
+          "price": 29.99
+        }
+      ],
+      "subtotal": 104.97,
+      "shipping_cost": 0.00,
+      "tax": 9.45,
+      "total": 114.42,
+      "payment_method": "Credit Card",
+      "shipping_method": "Express Shipping (2-3 business days)"
+    }
+  ],
+  "order_statuses": [
+    {
+      "status": "pending",
+      "description": "Order has been received and payment is being verified"
+    },
+    {
+      "status": "processing",
+      "description": "Order is being prepared for shipment"
+    },
+    {
+      "status": "shipped",
+      "description": "Order has been shipped and is in transit"
+    },
+    {
+      "status": "delivered",
+      "description": "Order has been delivered to the destination"
+    },
+    {
+      "status": "cancelled",
+      "description": "Order has been cancelled"
+    },
+    {
+      "status": "returned",
+      "description": "Order has been returned by customer"
+    }
+  ],
+  "policies": {
+    "shipping_policy": {
+      "title": "Shipping and Delivery Policy",
+      "last_updated": "2025-12-01",
+      "content": "ShopEase is committed to delivering your orders quickly and efficiently. We offer multiple shipping options to meet your needs.",
+      "shipping_methods": [
+        {
+          "name": "Standard Shipping",
+          "delivery_time": "5-7 business days",
+          "cost": "$5.99 for orders under $50, FREE for orders $50 and above",
+          "available_regions": "Continental United States"
+        },
+        {
+          "name": "Express Shipping",
+          "delivery_time": "2-3 business days",
+          "cost": "$12.99 flat rate",
+          "available_regions": "Continental United States"
+        },
+        {
+          "name": "Overnight Shipping",
+          "delivery_time": "1 business day",
+          "cost": "$24.99 flat rate",
+          "available_regions": "Continental United States"
+        },
+        {
+          "name": "International Shipping",
+          "delivery_time": "10-21 business days",
+          "cost": "Varies by destination, calculated at checkout",
+          "available_regions": "Select international destinations"
+        }
+      ],
+      "processing_time": "Orders are typically processed within 1-2 business days. Orders placed on weekends or holidays will be processed the next business day.",
+      "tracking": "Once your order ships, you will receive a confirmation email with tracking information. You can track your package using the tracking number provided or through your account dashboard.",
+      "delivery_issues": "If your package shows as delivered but you haven't received it, please check with neighbors or building management. Contact us within 48 hours if you still cannot locate your package.",
+      "address_changes": "Address changes can be made up to 2 hours after order placement. After this time, please contact customer service immediately. We cannot guarantee address changes once the order has been shipped.",
+      "po_boxes": "We ship to PO boxes for standard shipping only. Express and overnight shipping are not available for PO box addresses."
+    },
+    "return_policy": {
+      "title": "Returns and Refunds Policy",
+      "last_updated": "2025-12-01",
+      "content": "We want you to be completely satisfied with your purchase. If you're not happy with your order, we offer a hassle-free return policy.",
+      "return_window": "30 days from the date of delivery",
+      "eligibility": [
+        "Items must be unused and in original condition",
+        "Items must be in original packaging with all tags attached",
+        "Items must include all accessories, manuals, and documentation",
+        "Items marked as final sale or clearance are not eligible for return"
+      ],
+      "non_returnable_items": [
+        "Personal care items (opened)",
+        "Underwear and intimate apparel",
+        "Digital downloads and software",
+        "Gift cards",
+        "Custom or personalized items",
+        "Perishable goods"
+      ],
+      "return_process": [
+        "Log into your account and navigate to Order History",
+        "Select the order containing items you wish to return",
+        "Click 'Return Items' and select the items and reason for return",
+        "Print the prepaid return shipping label",
+        "Pack items securely in original packaging if possible",
+        "Attach the return label and drop off at any authorized carrier location"
+      ],
+      "return_shipping_cost": "Return shipping is FREE for defective items or shipping errors. For all other returns, a $6.99 return shipping fee will be deducted from your refund. Express returns are available for an additional fee.",
+      "refund_processing": "Refunds are processed within 5-7 business days after we receive your returned item. The refund will be issued to your original payment method. Please allow 3-5 additional business days for the refund to appear in your account.",
+      "exchanges": "We do not offer direct exchanges. If you need a different size, color, or item, please return the original item for a refund and place a new order.",
+      "damaged_or_defective": "If you receive a damaged or defective item, please contact us within 7 days of delivery with photos. We will provide a prepaid return label and issue a full refund or replacement at no cost to you.",
+      "late_returns": "Returns initiated after 30 days may be accepted at our discretion and may be subject to a 20% restocking fee.",
+      "international_returns": "International customers are responsible for return shipping costs and any customs fees. We recommend using a trackable shipping service."
+    },
+    "warranty_policy": {
+      "title": "Product Warranty Policy",
+      "last_updated": "2025-12-01",
+      "content": "Many of our products come with manufacturer warranties. Warranty terms vary by product and brand.",
+      "standard_warranty": "Most electronics and appliances include a 1-2 year manufacturer warranty covering defects in materials and workmanship.",
+      "warranty_claims": [
+        "Warranty claims must be initiated within the warranty period",
+        "Proof of purchase is required for all warranty claims",
+        "Contact our customer service team to initiate a warranty claim",
+        "Defective items may need to be returned for inspection",
+        "Warranty does not cover damage from misuse, accidents, or normal wear and tear"
+      ],
+      "extended_warranty": "Extended warranty protection is available for purchase on eligible items at checkout. Extended warranties provide coverage beyond the manufacturer warranty period.",
+      "warranty_contact": "For warranty questions or claims, email warranty@shopease.com or call 1-800-SHOP-EASE."
+    },
+    "payment_policy": {
+      "title": "Payment and Pricing Policy",
+      "last_updated": "2025-12-01",
+      "accepted_payment_methods": [
+        "Visa",
+        "Mastercard",
+        "American Express",
+        "Discover",
+        "PayPal",
+        "Apple Pay",
+        "Google Pay",
+        "ShopEase Gift Cards"
+      ],
+      "pricing": "All prices are in USD and are subject to change without notice. We make every effort to ensure pricing accuracy, but errors may occur. If we discover a pricing error after you've placed an order, we will contact you for instructions.",
+      "payment_security": "We use industry-standard SSL encryption to protect your payment information. We do not store complete credit card information on our servers.",
+      "billing": "You will be charged when your order is processed, typically within 24 hours of order placement. For pre-orders, you will be charged when the item ships.",
+      "sales_tax": "Sales tax is calculated based on your shipping address and applicable state and local tax rates.",
+      "promotional_codes": "Promotional codes and discounts cannot be combined unless explicitly stated. Codes must be entered at checkout and cannot be applied to past orders. Codes have expiration dates and terms that will be specified in the promotion details."
+    },
+    "privacy_policy": {
+      "title": "Privacy and Data Protection",
+      "last_updated": "2025-12-01",
+      "content": "We are committed to protecting your privacy and personal information.",
+      "information_collected": [
+        "Name and contact information",
+        "Billing and shipping addresses",
+        "Payment information",
+        "Order history and preferences",
+        "Communication preferences",
+        "Device and browsing information"
+      ],
+      "information_usage": "We use your information to process orders, communicate with you, improve our services, and provide personalized experiences. We do not sell your personal information to third parties.",
+      "data_security": "We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, or destruction.",
+      "cookies": "We use cookies and similar technologies to enhance your browsing experience, analyze site traffic, and personalize content. You can manage cookie preferences in your browser settings.",
+      "opt_out": "You can opt out of marketing communications at any time by clicking the unsubscribe link in our emails or updating your preferences in your account settings."
+    },
+    "customer_service_policy": {
+      "title": "Customer Service and Support",
+      "last_updated": "2025-12-01",
+      "contact_methods": [
+        {
+          "method": "Phone",
+          "details": "1-800-SHOP-EASE (1-800-746-7327)",
+          "hours": "Monday-Friday: 8am-8pm EST, Saturday-Sunday: 9am-6pm EST"
+        },
+        {
+          "method": "Email",
+          "details": "support@shopease.com",
+          "response_time": "Within 24 hours"
+        },
+        {
+          "method": "Live Chat",
+          "details": "Available on website",
+          "hours": "Monday-Friday: 8am-8pm EST"
+        },
+        {
+          "method": "Social Media",
+          "details": "@ShopEaseHelp on Twitter and Facebook",
+          "response_time": "Within 2-4 hours during business hours"
+        }
+      ],
+      "service_commitment": "We are committed to providing excellent customer service. Our team is trained to assist you with orders, returns, product questions, and any other concerns.",
+      "complaint_resolution": "If you are not satisfied with our service, please ask to speak with a supervisor or manager. We take all complaints seriously and will work to resolve issues promptly."
+    },
+    "product_availability": {
+      "title": "Product Availability and Backorders",
+      "last_updated": "2025-12-01",
+      "stock_status": "Product availability is updated in real-time on our website. However, inventory changes rapidly, and items may sell out between the time you add them to your cart and complete checkout.",
+      "out_of_stock": "If an item goes out of stock after you place your order, we will contact you within 24 hours to offer alternatives or cancel that portion of your order.",
+      "backorders": "Some items may be available for backorder. Backordered items will ship as soon as they become available. You will not be charged for backordered items until they ship.",
+      "pre_orders": "Pre-order items will have an estimated ship date listed on the product page. Pre-order dates are subject to change. You will be charged when the item ships."
+    },
+    "terms_and_conditions": {
+      "title": "General Terms and Conditions",
+      "last_updated": "2025-12-01",
+      "acceptance": "By placing an order or using our website, you agree to these terms and conditions.",
+      "age_requirement": "You must be at least 18 years old to make a purchase on our website.",
+      "account_responsibility": "You are responsible for maintaining the confidentiality of your account information and for all activities that occur under your account.",
+      "prohibited_use": "You may not use our website for any unlawful purpose or in violation of these terms.",
+      "intellectual_property": "All content on our website, including text, images, logos, and designs, is protected by copyright and other intellectual property rights.",
+      "limitation_of_liability": "ShopEase is not liable for any indirect, incidental, or consequential damages arising from your use of our website or products.",
+      "modifications": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting to our website.",
+      "governing_law": "These terms are governed by the laws of the State of Delaware, United States."
+    }
+  },
+  "faqs": [
+    {
+      "category": "Orders & Checkout",
+      "questions": [
+        {
+          "id": "FAQ001",
+          "question": "How do I place an order?",
+          "answer": "To place an order, browse our products, add items to your cart, and proceed to checkout. You'll need to provide shipping and payment information. Once your order is confirmed, you'll receive an email confirmation with your order details and order number.",
+          "keywords": ["place order", "checkout", "buy", "purchase", "how to order"]
+        },
+        {
+          "id": "FAQ002",
+          "question": "Can I modify or cancel my order after placing it?",
+          "answer": "You can modify or cancel your order within 2 hours of placement by contacting our customer service team immediately. Once an order enters processing or has been shipped, we cannot guarantee modifications or cancellations. However, you can always return items within 30 days of delivery.",
+          "keywords": ["modify order", "cancel order", "change order", "update order"]
+        },
+        {
+          "id": "FAQ003",
+          "question": "What payment methods do you accept?",
+          "answer": "We accept Visa, Mastercard, American Express, Discover, PayPal, Apple Pay, Google Pay, and ShopEase Gift Cards. All payments are processed securely using SSL encryption.",
+          "keywords": ["payment methods", "how to pay", "credit card", "paypal"]
+        },
+        {
+          "id": "FAQ004",
+          "question": "Do you offer price matching?",
+          "answer": "Currently, we do not offer price matching. However, we regularly run promotions and sales. Sign up for our newsletter to receive notifications about special offers and discounts.",
+          "keywords": ["price match", "price matching", "lower price"]
+        },
+        {
+          "id": "FAQ005",
+          "question": "Can I use multiple promo codes on one order?",
+          "answer": "Generally, only one promotional code can be used per order unless explicitly stated otherwise. Promo codes cannot be applied to past orders and must be entered at checkout before completing your purchase.",
+          "keywords": ["promo code", "coupon", "discount code", "multiple codes"]
+        }
+      ]
+    },
+    {
+      "category": "Shipping & Delivery",
+      "questions": [
+        {
+          "id": "FAQ101",
+          "question": "How long does shipping take?",
+          "answer": "Shipping times depend on the method you choose. Standard shipping takes 5-7 business days, Express shipping takes 2-3 business days, and Overnight shipping arrives in 1 business day. Orders typically process within 1-2 business days before shipping. International shipping takes 10-21 business days depending on the destination.",
+          "keywords": ["shipping time", "delivery time", "how long", "when will I receive"]
+        },
+        {
+          "id": "FAQ102",
+          "question": "How much does shipping cost?",
+          "answer": "Standard shipping costs $5.99 for orders under $50 and is FREE for orders $50 and above. Express shipping is $12.99 and overnight shipping is $24.99. International shipping costs vary by destination and are calculated at checkout.",
+          "keywords": ["shipping cost", "delivery cost", "free shipping", "shipping price"]
+        },
+        {
+          "id": "FAQ103",
+          "question": "Do you ship internationally?",
+          "answer": "Yes, we ship to select international destinations. International shipping takes 10-21 business days and costs vary by location. Please note that international orders may be subject to customs fees and import duties, which are the responsibility of the customer.",
+          "keywords": ["international shipping", "ship abroad", "overseas", "global shipping"]
+        },
+        {
+          "id": "FAQ104",
+          "question": "How can I track my order?",
+          "answer": "Once your order ships, you'll receive an email with a tracking number. You can track your package by entering the tracking number on the carrier's website or by logging into your ShopEase account and viewing your order history. Tracking information updates every 24 hours.",
+          "keywords": ["track order", "tracking", "where is my order", "order status"]
+        },
+        {
+          "id": "FAQ105",
+          "question": "What if my package is lost or stolen?",
+          "answer": "If tracking shows your package was delivered but you didn't receive it, first check with neighbors and building management. Contact us within 48 hours if you cannot locate it. For packages confirmed lost by the carrier, we will file a claim and issue a replacement or refund. We are not responsible for stolen packages after confirmed delivery.",
+          "keywords": ["lost package", "stolen package", "missing order", "didn't receive"]
+        },
+        {
+          "id": "FAQ106",
+          "question": "Can I change my shipping address after ordering?",
+          "answer": "Address changes can be made within 2 hours of order placement by contacting customer service immediately. Once the order has shipped, we cannot change the delivery address. You may need to contact the shipping carrier directly to request an address change or hold for pickup.",
+          "keywords": ["change address", "wrong address", "update address", "shipping address"]
+        },
+        {
+          "id": "FAQ107",
+          "question": "Do you ship to PO boxes?",
+          "answer": "Yes, we ship to PO boxes using Standard shipping only. Express and Overnight shipping options are not available for PO box addresses as these require a signature at a physical location.",
+          "keywords": ["PO box", "post office box", "ship to PO box"]
+        }
+      ]
+    },
+    {
+      "category": "Returns & Refunds",
+      "questions": [
+        {
+          "id": "FAQ201",
+          "question": "What is your return policy?",
+          "answer": "We offer a 30-day return policy from the date of delivery. Items must be unused, in original condition, and in original packaging with tags attached. To initiate a return, log into your account, go to Order History, select the items to return, and print your prepaid return label. Return shipping is free for defective items; otherwise, a $6.99 fee is deducted from your refund.",
+          "keywords": ["return policy", "return", "send back", "return items"]
+        },
+        {
+          "id": "FAQ202",
+          "question": "How long does it take to get a refund?",
+          "answer": "Refunds are processed within 5-7 business days after we receive your returned item. The refund will be issued to your original payment method. Please allow an additional 3-5 business days for the refund to appear in your account, depending on your bank or card issuer.",
+          "keywords": ["refund time", "when refund", "refund processing", "how long refund"]
+        },
+        {
+          "id": "FAQ203",
+          "question": "Can I exchange an item for a different size or color?",
+          "answer": "We do not offer direct exchanges. If you need a different size, color, or item, please return the original item for a refund and place a new order for the item you want. This ensures you get your preferred item as quickly as possible.",
+          "keywords": ["exchange", "different size", "different color", "swap"]
+        },
+        {
+          "id": "FAQ204",
+          "question": "What items cannot be returned?",
+          "answer": "The following items cannot be returned: opened personal care items, underwear and intimate apparel, digital downloads and software, gift cards, custom or personalized items, and perishable goods. Items marked as final sale or clearance are also non-returnable.",
+          "keywords": ["cannot return", "non-returnable", "final sale", "no returns"]
+        },
+        {
+          "id": "FAQ205",
+          "question": "What if I received a damaged or defective item?",
+          "answer": "If you receive a damaged or defective item, please contact us within 7 days of delivery with photos of the damage. We will provide a prepaid return label at no cost and issue a full refund or send a replacement immediately. We sincerely apologize for any inconvenience.",
+          "keywords": ["damaged", "defective", "broken", "doesn't work", "faulty"]
+        },
+        {
+          "id": "FAQ206",
+          "question": "Can I return an item after 30 days?",
+          "answer": "Returns initiated after the 30-day window may be accepted at our discretion on a case-by-case basis and may be subject to a 20% restocking fee. Please contact our customer service team to discuss your situation.",
+          "keywords": ["late return", "after 30 days", "expired return", "past return window"]
+        },
+        {
+          "id": "FAQ207",
+          "question": "How do I return an international order?",
+          "answer": "International customers are responsible for return shipping costs and any customs fees. We recommend using a trackable shipping service. Once we receive the returned item, we will process your refund according to our standard refund timeline.",
+          "keywords": ["international return", "return from abroad", "overseas return"]
+        }
+      ]
+    },
+    {
+      "category": "Products & Availability",
+      "questions": [
+        {
+          "id": "FAQ301",
+          "question": "How do I know if an item is in stock?",
+          "answer": "Product availability is displayed on each product page in real-time. If an item shows 'In Stock', it's available for immediate shipment. 'Low Stock' means limited quantities remain. 'Out of Stock' items cannot be purchased at this time. You can sign up for restock notifications on out-of-stock items.",
+          "keywords": ["in stock", "availability", "available", "out of stock"]
+        },
+        {
+          "id": "FAQ302",
+          "question": "Can I backorder an out-of-stock item?",
+          "answer": "Some items may be available for backorder. If backorder is available, you'll see that option on the product page with an estimated availability date. You won't be charged for backordered items until they ship. Backorder dates are estimates and may change.",
+          "keywords": ["backorder", "pre-order", "out of stock order"]
+        },
+        {
+          "id": "FAQ303",
+          "question": "Do you offer product warranties?",
+          "answer": "Many of our products come with manufacturer warranties, typically 1-2 years for electronics and appliances. Warranty terms are specified on product pages. To initiate a warranty claim, contact our customer service team with your proof of purchase. Extended warranty options are available at checkout for eligible items.",
+          "keywords": ["warranty", "guarantee", "product warranty", "protection"]
+        },
+        {
+          "id": "FAQ304",
+          "question": "Are your product images accurate?",
+          "answer": "We strive to display accurate product images and descriptions. However, colors may vary slightly due to screen settings and photography lighting. If you receive an item that doesn't match the description or images, you can return it within 30 days for a full refund.",
+          "keywords": ["product images", "accurate photos", "color accuracy"]
+        },
+        {
+          "id": "FAQ305",
+          "question": "Can I get product recommendations?",
+          "answer": "Yes! You can browse our curated collections, check out our 'Customers Also Bought' suggestions, or contact our customer service team for personalized recommendations based on your needs and preferences.",
+          "keywords": ["recommendations", "suggest products", "what to buy", "help choose"]
+        }
+      ]
+    },
+    {
+      "category": "Account & Privacy",
+      "questions": [
+        {
+          "id": "FAQ401",
+          "question": "Do I need an account to place an order?",
+          "answer": "No, you can checkout as a guest. However, creating an account allows you to track orders easily, save addresses, view order history, manage returns, and receive exclusive member offers.",
+          "keywords": ["account required", "guest checkout", "create account", "need account"]
+        },
+        {
+          "id": "FAQ402",
+          "question": "How do I reset my password?",
+          "answer": "Click 'Forgot Password' on the login page. Enter your email address and we'll send you a password reset link. Follow the instructions in the email to create a new password. If you don't receive the email within 10 minutes, check your spam folder.",
+          "keywords": ["reset password", "forgot password", "change password", "can't login"]
+        },
+        {
+          "id": "FAQ403",
+          "question": "Is my personal information secure?",
+          "answer": "Yes, we take your privacy and security seriously. We use industry-standard SSL encryption to protect your data. We do not store complete credit card information on our servers, and we never sell your personal information to third parties. See our Privacy Policy for complete details.",
+          "keywords": ["security", "privacy", "safe", "protect information", "data security"]
+        },
+        {
+          "id": "FAQ404",
+          "question": "How do I unsubscribe from emails?",
+          "answer": "You can unsubscribe from marketing emails by clicking the 'Unsubscribe' link at the bottom of any promotional email, or by logging into your account and updating your email preferences. Please note you'll still receive transactional emails about your orders.",
+          "keywords": ["unsubscribe", "stop emails", "too many emails", "email preferences"]
+        }
+      ]
+    },
+    {
+      "category": "Customer Service",
+      "questions": [
+        {
+          "id": "FAQ501",
+          "question": "How can I contact customer service?",
+          "answer": "You can reach us by phone at 1-800-SHOP-EASE (Monday-Friday 8am-8pm EST, Saturday-Sunday 9am-6pm EST), email us at support@shopease.com (response within 24 hours), use live chat on our website (Monday-Friday 8am-8pm EST), or message us on social media @ShopEaseHelp.",
+          "keywords": ["contact", "customer service", "support", "help", "reach you"]
+        },
+        {
+          "id": "FAQ502",
+          "question": "What are your customer service hours?",
+          "answer": "Our phone and live chat support are available Monday-Friday from 8am-8pm EST and Saturday-Sunday from 9am-6pm EST. Email support is available 24/7 with responses within 24 hours. Social media support is monitored during business hours with responses within 2-4 hours.",
+          "keywords": ["hours", "when open", "business hours", "support hours"]
+        },
+        {
+          "id": "FAQ503",
+          "question": "Do you have a satisfaction guarantee?",
+          "answer": "Yes! We stand behind our products and service. If you're not completely satisfied with your purchase, you can return it within 30 days for a full refund. We're committed to making things right if you experience any issues.",
+          "keywords": ["satisfaction guarantee", "guarantee", "promise", "quality"]
+        }
+      ]
+    },
+    {
+      "category": "Gift Cards & Promotions",
+      "questions": [
+        {
+          "id": "FAQ601",
+          "question": "Do you sell gift cards?",
+          "answer": "Yes, we offer digital gift cards in amounts from $25 to $500. Gift cards are delivered via email and can be used for any purchase on our website. They never expire and have no fees.",
+          "keywords": ["gift card", "gift certificate", "present", "give gift"]
+        },
+        {
+          "id": "FAQ602",
+          "question": "How do I use a promo code?",
+          "answer": "Enter your promo code in the 'Promo Code' field at checkout before completing your purchase. Click 'Apply' and the discount will be reflected in your order total. Promo codes are case-sensitive and cannot be applied to past orders.",
+          "keywords": ["promo code", "use coupon", "apply discount", "enter code"]
+        },
+        {
+          "id": "FAQ603",
+          "question": "How do I check my gift card balance?",
+          "answer": "You can check your gift card balance by entering the gift card number on our Gift Card Balance page or by contacting customer service. The balance will also be displayed when you apply the gift card at checkout.",
+          "keywords": ["gift card balance", "check balance", "remaining balance"]
+        }
+      ]
+    }
+  ],
+  "voice_query_scenarios": [
+    {
+      "scenario_id": "S001",
+      "category": "Order Tracking",
+      "user_intent": "Track order status",
+      "sample_queries": [
+        "Where is my order?",
+        "Can you track my package?",
+        "What's the status of my order?",
+        "When will my order arrive?",
+        "Has my order shipped yet?",
+        "I want to check on order number ORD10001",
+        "Track order ORD10001"
+      ],
+      "expected_information_needed": [
+        "order_id or order_number",
+        "customer_email or phone_number"
+      ],
+      "sample_bot_response": "I can help you track your order. I need your order number to look that up. It starts with 'ORD' and can be found in your confirmation email. What's your order number?",
+      "sample_follow_up": "Your order ORD10001 has been shipped via FedEx. The tracking number is TRK789456123. It's currently in transit and estimated to arrive on January 13th, 2026. Would you like me to send the tracking details to your email?"
+    },
+    {
+      "scenario_id": "S002",
+      "category": "Product Inquiry",
+      "user_intent": "Get product information",
+      "sample_queries": [
+        "Tell me about the wireless headphones",
+        "What features does the fitness watch have?",
+        "Do you have any yoga mats?",
+        "How much is the coffee maker?",
+        "What colors do the headphones come in?",
+        "Is the standing desk in stock?",
+        "What's the battery life on the fitness watch?"
+      ],
+      "expected_information_needed": [
+        "product_name or product_category"
+      ],
+      "sample_bot_response": "I'd be happy to help you learn about our products! We have several great wireless headphones. Are you interested in the Wireless Bluetooth Headphones Pro by SoundWave?",
+      "sample_follow_up": "The Wireless Bluetooth Headphones Pro are priced at $129.99. They feature active noise cancellation, 30-hour battery life, Bluetooth 5.0 connectivity, and touch controls. They come in Black, Silver, and Rose Gold. They're currently in stock with over 1,200 customer reviews averaging 4.5 stars. Would you like to know more about these headphones or hear about other options?"
+    },
+    {
+      "scenario_id": "S003",
+      "category": "Return Policy Inquiry",
+      "user_intent": "Learn about returns",
+      "sample_queries": [
+        "What is your return policy?",
+        "Can I return an item?",
+        "How do I return something?",
+        "How long do I have to return an item?",
+        "Is return shipping free?",
+        "Can I return opened products?",
+        "What items can't be returned?"
+      ],
+      "expected_information_needed": [],
+      "sample_bot_response": "We offer a 30-day return policy from the date of delivery. Items must be unused and in original condition with all packaging and tags. To start a return, log into your account, go to Order History, select the items, and print your prepaid return label. Return shipping is free for defective items, otherwise there's a $6.99 fee deducted from your refund. Refunds are processed within 5-7 business days after we receive the item. Is there a specific item you're looking to return?",
+      "sample_follow_up": null
+    },
+    {
+      "scenario_id": "S004",
+      "category": "Shipping Information",
+      "user_intent": "Learn about shipping options and costs",
+      "sample_queries": [
+        "How much is shipping?",
+        "When will my order arrive?",
+        "What shipping options do you have?",
+        "Do you offer free shipping?",
+        "How long does delivery take?",
+        "Can I get overnight shipping?",
+        "Do you ship internationally?"
+      ],
+      "expected_information_needed": [],
+      "sample_bot_response": "We offer several shipping options. Standard shipping is $5.99 for orders under $50, but it's FREE for orders $50 and above, taking 5-7 business days. Express shipping is $12.99 and takes 2-3 business days. Overnight shipping is $24.99 for next-day delivery. We also ship internationally to select destinations. Which shipping option interests you?",
+      "sample_follow_up": null
+    },
+    {
+      "scenario_id": "S005",
+      "category": "Product Availability",
+      "user_intent": "Check if product is in stock",
+      "sample_queries": [
+        "Is the standing desk in stock?",
+        "Do you have the yoga mat available?",
+        "When will the coffee maker be back in stock?",
+        "Can I order the headphones?",
+        "Is this item available?",
+        "Do you have this in black?"
+      ],
+      "expected_information_needed": [
+        "product_name or product_id"
+      ],
+      "sample_bot_response": "I can check that for you! Which product are you interested in?",
+      "sample_follow_up": "Great news! The Wireless Bluetooth Headphones Pro are currently in stock with 245 units available. They're available in Black, Silver, and Rose Gold. Would you like to place an order or hear more about this product?"
+    }
+  ],
+  "common_voice_patterns": {
+    "casual_greetings": [
+      "Hey",
+      "Hi there",
+      "Hello",
+      "Good morning",
+      "Good afternoon"
+    ],
+    "polite_requests": [
+      "Could you help me",
+      "I need assistance with",
+      "Can you please",
+      "I'd like to know about",
+      "Would you be able to"
+    ],
+    "urgent_tones": [
+      "I need this urgently",
+      "This is important",
+      "As soon as possible",
+      "Right away",
+      "Immediately"
+    ],
+    "frustrated_expressions": [
+      "I'm having trouble",
+      "This isn't working",
+      "I've been waiting",
+      "I'm frustrated",
+      "This is confusing"
+    ],
+    "confirmation_phrases": [
+      "Yes, that's correct",
+      "Exactly",
+      "That's right",
+      "No, that's not it",
+      "Not quite"
+    ]
+  }
+}
