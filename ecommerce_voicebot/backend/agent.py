@@ -19,6 +19,7 @@ from livekit.agents import (
 )
 from livekit.plugins import (
     openai,
+    cartesia,
     noise_cancellation,
     silero
 )
@@ -148,9 +149,13 @@ class Assistant(Agent):
 
 async def entrypoint(ctx: agents.JobContext):
     session = AgentSession(
-        stt="deepgram/nova-3:en",
+        stt=openai.STT(),
         llm=openai.LLM(model="gpt-4o-mini"),
-        tts="elevenlabs/eleven_turbo_v2_5:Xb7hH8MSUJpSbSDYk0k2",
+        tts=cartesia.TTS(
+            model="sonic-2",
+            voice="f786b574-daa5-4673-aa0c-cbe3e8534c02",
+        ),
+        # tools
         vad=silero.VAD.load(),
         turn_detection=MultilingualModel(),
     )

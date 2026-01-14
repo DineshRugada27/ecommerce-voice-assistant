@@ -1,6 +1,6 @@
 # E-commerce Voice Bot
 
-A real-time voice-powered e-commerce shopping assistant built with LiveKit, OpenAI, Deepgram, and ElevenLabs. This application enables customers to interact with an AI assistant through natural voice conversations to search for products, get product information, check order status, and receive shopping assistance.
+A real-time voice-powered e-commerce shopping assistant built with LiveKit, OpenAI, and Cartesia. This application enables customers to interact with an AI assistant through natural voice conversations to search for products, get product information, check order status, and receive shopping assistance.
 
 ## 📋 Table of Contents
 
@@ -104,11 +104,8 @@ LIVEKIT_URL="wss://your-project.livekit.cloud"
 # OpenAI Configuration
 OPENAI_API_KEY="your_openai_api_key_here"
 
-# Deepgram Configuration
-DEEPGRAM_API_KEY="your_deepgram_api_key_here"
-
-# ElevenLabs Configuration
-ELEVENLABS_API_KEY="your_elevenlabs_api_key_here"
+# Cartesia Configuration (for TTS)
+CARTESIA_API_KEY="your_cartesia_api_key_here"
 
 # Optional: Backend API URL
 BACKEND_API_URL="http://localhost:5000"
@@ -206,9 +203,9 @@ This project consists of two main parts:
 
 The system provides:
 - **Real-time voice interaction** using LiveKit infrastructure
-- **Speech-to-Text (STT)** via Deepgram Nova-3
+- **Speech-to-Text (STT)** via OpenAI Whisper
 - **Natural Language Processing** via OpenAI GPT-4o-mini
-- **Text-to-Speech (TTS)** via ElevenLabs Eleven Turbo v2.5
+- **Text-to-Speech (TTS)** via Cartesia (sonic-2 model)
 - **RAG (Retrieval Augmented Generation)** for product catalog queries
 - **Voice Activity Detection (VAD)** and turn detection
 - **Noise cancellation** for better audio quality
@@ -241,9 +238,9 @@ The system provides:
        │                        │         ┌───────────────┴──────┐
        │                        │         │   agent.py            │
        │                        │         │   (Voice AI Agent)    │
-       │                        │         │   - STT (Deepgram)     │
+       │                        │         │   - STT (OpenAI)      │
        │                        │         │   - LLM (GPT-4o-mini) │
-       │                        │         │   - TTS (ElevenLabs)  │
+       │                        │         │   - TTS (Cartesia)    │
        │                        │         │   - RAG System        │
        │                        │         └───────────────────────┘
        │                        │
@@ -267,10 +264,10 @@ The system provides:
 5. **Agent joins room** → Backend agent (`agent.py`) automatically joins when user connects
 6. **Voice interaction**:
    - User speaks → Audio captured by frontend
-   - STT converts speech to text (Deepgram Nova-3)
+   - STT converts speech to text (OpenAI Whisper)
    - RAG system retrieves relevant product information (if query is product-related)
    - LLM generates response (GPT-4o-mini with context)
-   - TTS converts response to speech (ElevenLabs Eleven Turbo v2.5)
+   - TTS converts response to speech (Cartesia sonic-2)
    - Audio streamed back to user
 7. **Real-time conversation** continues with turn detection and VAD
 
@@ -339,27 +336,18 @@ You need to obtain API keys from the following services:
 - **Usage**: 
   - Language Model (GPT-4o-mini)
 
-#### 3. **Deepgram** (Required)
-- **What it is**: High-accuracy speech-to-text service
-- **Where to get it**: 
-  - Sign up at [https://deepgram.com](https://deepgram.com)
-  - Get your API key from the dashboard
-- **Environment variable**:
-  - `DEEPGRAM_API_KEY` - Your Deepgram API key
-- **Usage**: 
-  - Speech-to-Text (Nova-3 model)
-  - Model: `deepgram/nova-3:en`
-
-#### 4. **ElevenLabs** (Required)
+#### 3. **Cartesia** (Required for TTS)
 - **What it is**: High-quality text-to-speech service
 - **Where to get it**: 
-  - Sign up at [https://elevenlabs.io](https://elevenlabs.io)
+  - Sign up at [https://cartesia.ai](https://cartesia.ai)
   - Get your API key from the dashboard
 - **Environment variable**:
-  - `ELEVENLABS_API_KEY` - Your ElevenLabs API key
+  - `CARTESIA_API_KEY` - Your Cartesia API key
 - **Usage**: 
-  - Text-to-Speech (Eleven Turbo v2.5 model)
-  - Voice ID: `Xb7hH8MSUJpSbSDYk0k2`
+  - Text-to-Speech (sonic-2 model)
+  - Voice ID: `f786b574-daa5-4673-aa0c-cbe3e8534c02`
+
+**Note**: STT is handled by OpenAI (included with OpenAI API key), so no separate STT service API key is needed.
 
 ### Optional Environment Variables
 
@@ -372,9 +360,8 @@ You need to obtain API keys from the following services:
 ### Core Technologies
 
 - **LiveKit Agents SDK**: Framework for building voice AI agents
-- **OpenAI**: GPT-4o-mini for Language Model (LLM)
-- **Deepgram**: Nova-3 model for Speech-to-Text (STT)
-- **ElevenLabs**: Eleven Turbo v2.5 model for Text-to-Speech (TTS)
+- **OpenAI**: GPT-4o-mini for Language Model (LLM) and Whisper for Speech-to-Text (STT)
+- **Cartesia**: sonic-2 model for Text-to-Speech (TTS)
 - **ChromaDB**: Vector database for RAG
 - **Sentence Transformers**: Embeddings for semantic search
 - **Flask**: Lightweight web server for token generation
@@ -427,9 +414,8 @@ You need to obtain API keys from the following services:
 
 **Technologies Used**:
 - LiveKit Agents SDK
-- OpenAI (GPT-4o-mini LLM)
-- Deepgram (Nova-3 STT)
-- ElevenLabs (Eleven Turbo v2.5 TTS)
+- OpenAI (GPT-4o-mini LLM, Whisper STT)
+- Cartesia (sonic-2 TTS)
 - Silero VAD
 - Noise cancellation plugin
 
@@ -543,8 +529,7 @@ You need to obtain API keys from the following services:
 - `chromadb`: Vector database
 - `sentence-transformers`: Embedding models
 - `python-dotenv`: Environment variable management
-- `livekit-plugins-deepgram`: Deepgram STT plugin
-- `livekit-plugins-elevenlabs`: ElevenLabs TTS plugin
+- `livekit-plugins-cartesia`: Cartesia TTS plugin
 
 ---
 
@@ -621,7 +606,7 @@ You need to obtain API keys from the following services:
 1. **Import errors**: Make sure all dependencies are installed
    ```bash
    pip install -r requirements.txt
-   pip install "livekit-agents[openai,deepgram,elevenlabs,silero,turn-detector]~=1.0"
+   pip install "livekit-agents[openai,cartesia,silero,turn-detector]~=1.0"
    pip install "livekit-plugins-noise-cancellation~=0.2"
    ```
 
@@ -644,8 +629,7 @@ You need to obtain API keys from the following services:
 - [LiveKit Documentation](https://docs.livekit.io/)
 - [LiveKit Agents SDK](https://github.com/livekit/agents)
 - [OpenAI API Documentation](https://platform.openai.com/docs)
-- [Deepgram Documentation](https://developers.deepgram.com/)
-- [ElevenLabs Documentation](https://elevenlabs.io/docs)
+- [Cartesia Documentation](https://docs.cartesia.ai/)
 - [Next.js Documentation](https://nextjs.org/docs)
 
 ---
